@@ -1,0 +1,16 @@
+{
+  "version": "0.11.2:beta:0",
+  "client": {
+    "enable_group_menu_key": true,
+    "group_menu_key": 25
+  },
+  "server": {
+    "disable_pvp_for_group_members": true,
+    "group_invite_request_expire_time_seconds": 20,
+    "max_players_per_squad": 4,
+    "max_players_per_raid": 12,
+    "max_players_per_party": 24,
+    "enable_group_chat": true,
+    "advanced_logging": false
+  }
+}

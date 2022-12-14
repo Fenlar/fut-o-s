@@ -1,0 +1,19 @@
+{
+  "version": "0.11.1:beta:0",
+  "client": {
+    "enable_store_menu_key": true,
+    "store_menu_key": 53
+  },
+  "server": {
+    "store_currency_index": 1,
+    "enable_gifts": true,
+    "gifts_inventory_size": 10,
+    "gift_expire_time_hours": 24,
+    "enable_store_access": true,
+    "enable_store_access_clientside": true,
+    "store_menu_operations_timeout_millis": 240000,
+    "enable_store_management_ingame": true,
+    "debug_scripts": false,
+    "advanced_logging": false
+  }
+}

@@ -1,0 +1,119 @@
+{
+	"priority": 100,
+	"populate": {
+		"osmium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "mekanism:oreblock:0",
+				"material": "galacticraftcore:basic_block_moon:4",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28
+				]
+			}
+		},
+		"prosperity": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "mysticalagriculture:prosperity_ore",
+				"material": "galacticraftplanets:venus:1",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+			}
+		},
+		"inferium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "mysticalagriculture:inferium_ore",
+				"material": "galacticraftplanets:venus:1",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+			}
+		},
+		"cquartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "appliedenergistics2:quartz_ore",
+				"material": "galacticraftplanets:venus:1",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+			}
+		},
+		"charged": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "appliedenergistics2:charged_quartz_ore",
+				"material": "galacticraftplanets:venus:1",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+			}
+		},
+		"yellorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "bigreactors:oreyellorite",
+				"material": "galacticraftplanets:mars:9",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29
+				]
+			}
+		}
+	}
+}
